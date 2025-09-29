@@ -97,11 +97,11 @@ function displayWeather(response) {
     let tempValue = Math.round(response.data.temperature.current);
     degrees.innerHTML = tempValue;
 
-    let iconUrl = response.data.condition.icon_url;
+    /*let iconUrl = response.data.condition.icon_url;
     let weatherIcon = document.querySelector(".emoji");
     weatherIcon.setAttribute("src", iconUrl);
     weatherIcon.setAttribute("alt", response.data.condition.description);
-    weatherIcon.innerHTML = `<img src="${iconUrl}" alt="${response.data.condition.description}`;
+    weatherIcon.innerHTML = `<img src="${iconUrl}" alt="${response.data.condition.description}`;*/
     
 }
 
